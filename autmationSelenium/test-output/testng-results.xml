@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11744" started-at="2018-05-15T15:03:19Z" finished-at="2018-05-15T15:03:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11744" started-at="2018-05-15T15:03:19Z" finished-at="2018-05-15T15:03:31Z">
+      <class name="testNgDemo.TestScript4">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNgDemo.TestScript4@46daef40]" name="beforeTest" is-config="true" duration-ms="5277" started-at="2018-05-15T15:03:19Z" finished-at="2018-05-15T15:03:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testPratice()[pri:0, instance:testNgDemo.TestScript4@46daef40]" name="testPratice" duration-ms="6436" started-at="2018-05-15T15:03:24Z" finished-at="2018-05-15T15:03:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPratice -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNgDemo.TestScript4@46daef40]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-05-15T15:03:31Z" finished-at="2018-05-15T15:03:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testNgDemo.TestScript4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
