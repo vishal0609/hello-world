@@ -26,7 +26,7 @@ public class TestScript4 {
 	WebDriver driver;
 	@Test(enabled = false)
 	public void testRun() throws AWTException, InterruptedException {
-		
+		//made changes to this 
 		driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
 		/*
 		driver.get("http://store.demoqa.com/");
