@@ -24,7 +24,7 @@ import org.testng.annotations.Test;
 
 public class TestScript4 {
 	WebDriver driver;
-	@Test(enabled = false)
+	@Test
 	public void testRun() throws AWTException, InterruptedException {
 		//made changes to this 
 		driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
@@ -88,7 +88,7 @@ public class TestScript4 {
 	}
 	
 	
-	@Test
+	@Test(enabled = false)
 	
 	public void testPratice() {
 		driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
@@ -99,7 +99,7 @@ public class TestScript4 {
 	}
 	@BeforeTest
 	public void beforeTest() {
-		String path = "E:\\Mars workspace\\chromedriver.exe";
+		String path = "chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver",path );
 		//System.setProperty("webdriver.ie.driver", "./server/IEDriverServer.exe");
 		 
