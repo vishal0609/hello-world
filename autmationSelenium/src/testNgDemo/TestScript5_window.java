@@ -12,7 +12,7 @@ public class TestScript5_window {
 	@Test
 	public void runTest() {
 		
-		String path = "E:\\Mars workspace\\chromedriver.exe";
+		String path = "chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver",path );
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
