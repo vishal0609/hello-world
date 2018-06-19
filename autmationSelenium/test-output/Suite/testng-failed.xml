@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="3" name="Test3(failed)" parallel="tests">
-    <parameter name="Browser" value="FF"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test1(failed)">
     <classes>
-      <class name="testNgDemo.TestScript2">
+      <class name="testNgDemo.TestScript4">
         <methods>
-          <include name="testRun" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="testRun"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- testNgDemo.TestScript2 -->
-    </classes>
-  </test> <!-- Test3(failed) -->
-  <test thread-count="3" name="Test1(failed)" parallel="tests">
-    <parameter name="Browser" value="CH"/>
-    <classes>
-      <class name="testNgDemo.TestScript2">
-        <methods>
-          <include name="testRun" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- testNgDemo.TestScript2 -->
+      </class> <!-- testNgDemo.TestScript4 -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="81706" started-at="2018-05-16T13:40:40Z" finished-at="2018-05-16T13:42:02Z">
+  <suite name="Default suite" duration-ms="60" started-at="2018-06-19T14:40:52Z" finished-at="2018-06-19T14:40:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="81706" started-at="2018-05-16T13:40:40Z" finished-at="2018-05-16T13:42:02Z">
-      <class name="testNgDemo.TestScript4">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNgDemo.TestScript4@46daef40]" name="beforeTest" is-config="true" duration-ms="4219" started-at="2018-05-16T13:40:40Z" finished-at="2018-05-16T13:40:44Z">
+    <test name="Default test" duration-ms="60" started-at="2018-06-19T14:40:52Z" finished-at="2018-06-19T14:40:52Z">
+      <class name="testNgDemo.TestScript1">
+        <test-method status="PASS" signature="testapp1()[pri:0, instance:testNgDemo.TestScript1@7ce6a65d]" name="testapp1" duration-ms="19" started-at="2018-06-19T14:40:52Z" finished-at="2018-06-19T14:40:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testRun()[pri:0, instance:testNgDemo.TestScript4@46daef40]" name="testRun" duration-ms="77433" started-at="2018-05-16T13:40:44Z" finished-at="2018-05-16T13:42:02Z">
+        </test-method> <!-- testapp1 -->
+        <test-method status="PASS" signature="testapp2()[pri:0, instance:testNgDemo.TestScript1@7ce6a65d]" name="testapp2" duration-ms="3" started-at="2018-06-19T14:40:52Z" finished-at="2018-06-19T14:40:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testRun -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNgDemo.TestScript4@46daef40]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-05-16T13:42:02Z" finished-at="2018-05-16T13:42:02Z">
+        </test-method> <!-- testapp2 -->
+        <test-method status="PASS" signature="testapp3()[pri:0, instance:testNgDemo.TestScript1@7ce6a65d]" name="testapp3" duration-ms="2" started-at="2018-06-19T14:40:52Z" finished-at="2018-06-19T14:40:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- testNgDemo.TestScript4 -->
+        </test-method> <!-- testapp3 -->
+      </class> <!-- testNgDemo.TestScript1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

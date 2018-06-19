@@ -64,7 +64,7 @@ public class TestScript4 {
 	     //action.contextClick();
 	     action.perform();
 		
-
+	     System.out.println("test performed");
 	}
 	
 	@Test(enabled = false)

@@ -7,12 +7,14 @@
   <class name="testNgDemo.TestScript2" />
   </classes>
   </test> <!-- Test -->
+  
   <test name="Test2">
   <parameter name="Browser" value="IE" />
   <classes>
   <class name="testNgDemo.TestScript2" />
   </classes>
   </test>
+  
   <test name="Test3">
   <parameter name="Browser" value="FF"/>
   <classes>
