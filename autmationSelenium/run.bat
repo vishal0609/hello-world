@@ -1,1 +1,0 @@
-java -cp bin;lib/* org.testng.TestNG testng4.xml
