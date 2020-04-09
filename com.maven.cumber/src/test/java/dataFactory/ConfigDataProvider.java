@@ -11,7 +11,7 @@ public class ConfigDataProvider {
 	public static String getValue(String key) {
 		Properties prop = new Properties();
 		FileInputStream fis;
-		String value;
+		String value;;
 		try {
 			
 			fis = new FileInputStream(".//Config//ConfigFile.properties");
