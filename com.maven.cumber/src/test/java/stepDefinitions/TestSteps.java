@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -36,8 +37,18 @@ public class TestSteps {
 		for (String key :set) {
 			i=i++;
 	    driver.get(ConfigDataProvider.getValue("url"));
-	    System.out.println("opening page"+data.get(key));
+	    System.out.println("opening page"+"Key: "+key+" :"+data.get(key));
 		}
 }
+	
+	@Then("^everthing is as required$")
+	public void everthing_is_as_required() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    // For automatic transformation, change DataTable to one of
+	    // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
+	    // E,K,V must be a scalar (String, Integer, Date, enum etc)
+	   // throw new PendingException();
+		driver.findElement(By.id("test"));
+	}
 
 }
