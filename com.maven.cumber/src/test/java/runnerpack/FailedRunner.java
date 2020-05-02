@@ -12,6 +12,7 @@ import cucumber.api.junit.Cucumber;
 		,monochrome=true
 		,plugin={"html:target/cucumber-html-report","rerun:target/rerun.txt"}
 		)
+
 public class FailedRunner {
 
 }
